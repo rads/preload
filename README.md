@@ -32,7 +32,7 @@ Once the initial setup is complete, local developer tool configuration is decoup
                 :rads.preload/namespaces [zprint.core
                                           hashp.core]}
       :nrepl {:extra-deps {nrepl/nrepl {:mvn/version "0.9.0"}
-                           io.github.rads/preload {:git/sha "RELEASE" :git/tag "v0.1.1"}}
+                           io.github.rads/preload {:git/sha "70e7174" :git/tag "v0.1.1"}}
               :main-opts ["-m" "rads.preload"
                           "-m" "nrepl.cmdline" "--interactive"]}}}
     ```
@@ -59,7 +59,7 @@ Once the `:preload` alias is set up in `~/.clojure/deps.edn`, there are two thin
     ```clojure
     {:aliases
      {:nrepl {:extra-deps {nrepl/nrepl {:mvn/version "0.9.0"}
-                           io.github.rads/preload {:git/sha "RELEASE" :git/tag "v0.1.1"}}
+                           io.github.rads/preload {:git/sha "70e7174" :git/tag "v0.1.1"}}
               :main-opts ["-m" "rads.preload"
                           "-m" "nrepl.cmdline" "--interactive"]}}}
     ```
